@@ -5,6 +5,7 @@
 	<string name="tip_remove_icon">Icon aus Menu entfernen</string>
 	<string name="tip_remove_app">App deinstallieren</string>
 	<string name="preferences">Einstellungen</string>
+	<string name="edit_pie_menu">Pie-Menu bearbeiten</string>
 	<string name="welcome">Willkommen!</string>
 	<string name="check_these_settings">Überprüfen Sie bitte die folgenden Einstellungen:</string>
 	<string name="disable_battery_optimization"><big><font color="#ffffff">Akkuoptimierung deaktivieren</font></big>\nSpart Energie und sorgt dafür, dass der Launcher schneller arbeitet</string>

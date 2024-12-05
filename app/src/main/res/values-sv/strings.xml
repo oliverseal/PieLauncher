@@ -5,6 +5,7 @@
 	<string name="tip_remove_icon">Ta bort ikon från cirkelmenyn</string>
 	<string name="tip_remove_app">Avinstallera app</string>
 	<string name="preferences">Inställningar</string>
+	<string name="edit_pie_menu">Redigera pie-menyn</string>
 	<string name="welcome">Välkommen!</string>
 	<string name="check_these_settings">Vänligen kontrollera följande inställningar:</string>
 	<string name="disable_battery_optimization"><big><font color="#ffffff">Inaktivera batterioptimering</font></big>\nSparar ström och gör att denna startskärmsapp arbetar snabbare</string>

@@ -40,6 +40,7 @@ public class HomeActivity extends Activity {
 	private EditText searchInput;
 	private ImageView prefsButton;
 	private AlphabetSidebar alphabetSidebar;
+	private ImageView iconEditButton;
 	private boolean updateAfterTextChange = true;
 	private boolean showAllAppsOnResume = false;
 	private boolean immersiveMode = false;
@@ -97,10 +98,14 @@ public class HomeActivity extends Activity {
 		searchInput = findViewById(R.id.search);
 		prefsButton = findViewById(R.id.preferences);
 		alphabetSidebar = findViewById(R.id.alphabet_sidebar);
+		iconEditButton = findViewById(R.id.icon_edit);
+		iconEditButton.setImageResource(R.drawable.ic_launcher);
 
 		initPieView();
 		initSearchInput();
 		initAlphabetSidebar();
+
+		iconEditButton.setOnClickListener(v -> showEditor());
 
 		SystemBars.listenForWindowInsets(pieView,
 				(left, top, right, bottom) -> pieView.setPadding(
@@ -393,6 +398,7 @@ public class HomeActivity extends Activity {
 	private void hidePrefsButton() {
 		if (prefsButton.getVisibility() == View.VISIBLE) {
 			prefsButton.setVisibility(View.GONE);
+			iconEditButton.setVisibility(View.GONE);
 		}
 	}
 
@@ -412,6 +418,7 @@ public class HomeActivity extends Activity {
 		searchInput.setVisibility(View.VISIBLE);
 		prefsButton.setVisibility(View.VISIBLE);
 		alphabetSidebar.setVisibility(prefs.isAlphabetFiltering() ? View.VISIBLE : View.GONE);
+		iconEditButton.setVisibility(View.VISIBLE);
 		if (prefs.displayKeyboard()) {
 			kb.showFor(searchInput);
 		}

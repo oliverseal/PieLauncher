@@ -88,4 +88,5 @@
 	<string name="alphabet_filtering">Алфавитная фильтрация</string>
 	<string name="alphabet_filtering_yes">Да (Только для языков с латинскими символами)</string>
 	<string name="alphabet_filtering_no">Нет</string>
+	<string name="edit_pie_menu">Редактировать круговое меню</string>
 </resources>

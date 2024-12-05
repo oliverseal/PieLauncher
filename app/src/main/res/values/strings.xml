@@ -5,6 +5,7 @@
 	<string name="tip_remove_icon">Remove icon from pie menu</string>
 	<string name="tip_remove_app">Uninstall app</string>
 	<string name="preferences">Settings</string>
+	<string name="edit_pie_menu">Edit pie menu</string>
 	<string name="welcome">Welcome!</string>
 	<string name="check_these_settings">Please check the following settings:</string>
 	<string name="disable_battery_optimization"><big><font color="#ffffff">Disable battery optimizations</font></big>\nSaves energy and makes this launcher work faster</string>

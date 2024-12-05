@@ -88,4 +88,5 @@
 	<string name="alphabet_filtering">Filtrage alphabétique</string>
 	<string name="alphabet_filtering_yes">Oui (Uniquement pour les langues à caractères latins)</string>
 	<string name="alphabet_filtering_no">Non</string>
+	<string name="edit_pie_menu">Modifier le menu</string>
 </resources>
