@@ -89,4 +89,7 @@
 	<string name="alphabet_filtering">Alfabetisk filtrering</string>
 	<string name="alphabet_filtering_yes">Ja (Endast för språk med latinska tecken)</string>
 	<string name="alphabet_filtering_no">Nej</string>
+	<string name="show_pie_menu_edit_icon">Visa redigeringsikon för cirkelmenyn</string>
+	<string name="show_pie_menu_edit_icon_no">Nej (Kan också nås genom att skriva \',,\' två gånger i sökfältet)</string>
+	<string name="show_pie_menu_edit_icon_yes">Ja</string>
 </resources>

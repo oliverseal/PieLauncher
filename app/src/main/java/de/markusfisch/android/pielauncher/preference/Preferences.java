@@ -50,6 +50,7 @@ public class Preferences {
 	private static final String USE_LIGHT_DIALOGS = "use_light_dialogs";
 	private static final String FORCE_RELAUNCH = "force_relaunch";
 	private static final String ALPHABET_FILTERING = "alphabet_filtering";
+	private static final String SHOW_PIE_MENU_EDIT_ICON = "show_pie_menu_edit_icon";
 
 	private final SharedPreferences preferences;
 	private final SystemSettings systemSettings;
@@ -74,6 +75,7 @@ public class Preferences {
 	private boolean useLightDialogs = false;
 	private boolean forceRelaunch = false;
 	private boolean alphabetFiltering = false;
+	private boolean showPieMenuEditIcon = false;
 
 	public Preferences(Context context) {
 		preferences = PreferenceManager.getDefaultSharedPreferences(context);
@@ -113,6 +115,8 @@ public class Preferences {
 				isEReader(context));
 		forceRelaunch = preferences.getBoolean(FORCE_RELAUNCH, forceRelaunch);
 		alphabetFiltering = preferences.getBoolean(ALPHABET_FILTERING, alphabetFiltering);
+		showPieMenuEditIcon = preferences.getBoolean(SHOW_PIE_MENU_EDIT_ICON,
+				showPieMenuEditIcon);
 	}
 
 	public boolean skipSetup() {
@@ -301,6 +305,15 @@ public class Preferences {
 	public void setAlphabetFiltering(boolean alphabetFiltering) {
 		this.alphabetFiltering = alphabetFiltering;
 		put(ALPHABET_FILTERING, alphabetFiltering).apply();
+	}
+
+	public boolean showPieMenuEditIcon() {
+		return showPieMenuEditIcon;
+	}
+
+	public void setShowPieMenuEditIcon(boolean show) {
+		this.showPieMenuEditIcon = show;
+		put(SHOW_PIE_MENU_EDIT_ICON, show).apply();
 	}
 
 	public float getAnimationDuration() {

@@ -89,4 +89,7 @@
 	<string name="alphabet_filtering_yes">Да (Только для языков с латинскими символами)</string>
 	<string name="alphabet_filtering_no">Нет</string>
 	<string name="edit_pie_menu">Редактировать круговое меню</string>
+	<string name="show_pie_menu_edit_icon">Показать значок редактирования кругового меню</string>
+	<string name="show_pie_menu_edit_icon_no">Нет (Также доступно при двойном вводе \',,\' в поиске)</string>
+	<string name="show_pie_menu_edit_icon_yes">Да</string>
 </resources>

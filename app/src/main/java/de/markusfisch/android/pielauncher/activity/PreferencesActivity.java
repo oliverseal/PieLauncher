@@ -239,6 +239,11 @@ public class PreferencesActivity extends Activity {
 				PreferencesActivity::getForceRelaunchOptions,
 				() -> prefs.forceRelaunch(),
 				(value) -> prefs.setForceRelaunch(value));
+		initPreference(R.id.show_pie_menu_edit_icon,
+				R.string.show_pie_menu_edit_icon,
+				PreferencesActivity::getShowPieMenuEditIconOptions,
+				() -> prefs.showPieMenuEditIcon(),
+				(value) -> prefs.setShowPieMenuEditIcon(value));
 	}
 
 	private <T, G> void initPreference(
@@ -517,6 +522,13 @@ public class PreferencesActivity extends Activity {
 		map.put(Boolean.TRUE, R.string.alphabet_filtering_yes);
 		map.put(Boolean.FALSE, R.string.alphabet_filtering_no);
 		return map;
+	}
+
+	private static Map<Boolean, Integer> getShowPieMenuEditIconOptions() {
+		Map<Boolean, Integer> options = new LinkedHashMap<>();
+		options.put(true, R.string.show_pie_menu_edit_icon_yes);
+		options.put(false, R.string.show_pie_menu_edit_icon_no);
+		return options;
 	}
 
 	private interface GetOptionsListener<T, G> {

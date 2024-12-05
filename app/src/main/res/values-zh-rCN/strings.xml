@@ -89,4 +89,7 @@
 	<string name="alphabet_filtering_yes">是（仅限拉丁字符语言）</string>
 	<string name="alphabet_filtering_no">否</string>
 	<string name="edit_pie_menu">编辑圆形菜单</string>
+	<string name="show_pie_menu_edit_icon">显示饼状菜单编辑图标</string>
+	<string name="show_pie_menu_edit_icon_no">否 (也可以通过在搜索中输入两次 \',,\' 来访问)</string>
+	<string name="show_pie_menu_edit_icon_yes">是</string>
 </resources>

@@ -418,7 +418,7 @@ public class HomeActivity extends Activity {
 		searchInput.setVisibility(View.VISIBLE);
 		prefsButton.setVisibility(View.VISIBLE);
 		alphabetSidebar.setVisibility(prefs.isAlphabetFiltering() ? View.VISIBLE : View.GONE);
-		iconEditButton.setVisibility(View.VISIBLE);
+		iconEditButton.setVisibility(prefs.showPieMenuEditIcon() ? View.VISIBLE : View.GONE);
 		if (prefs.displayKeyboard()) {
 			kb.showFor(searchInput);
 		}

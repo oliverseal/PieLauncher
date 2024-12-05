@@ -114,6 +114,10 @@
 					android:id="@+id/use_light_dialogs"
 					android:text="@string/use_light_dialogs_no" />
 				<de.markusfisch.android.pielauncher.widget.PreferenceView
+					style="@style/PreferenceWithSeparator"
+					android:id="@+id/show_pie_menu_edit_icon"
+					android:text="@string/show_pie_menu_edit_icon_no" />
+				<de.markusfisch.android.pielauncher.widget.PreferenceView
 					style="@style/Preference"
 					android:id="@+id/force_relaunch"
 					android:text="@string/force_relaunch_no" />

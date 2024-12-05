@@ -89,6 +89,9 @@
 	<string name="alphabet_filtering">Alphabetische Filterung</string>
 	<string name="alphabet_filtering_yes">Ja (Nur für Sprachen mit lateinischen Buchstaben)</string>
 	<string name="alphabet_filtering_no">Nein</string>
+	<string name="show_pie_menu_edit_icon">Pie-Menu-Bearbeitungssymbol anzeigen</string>
+	<string name="show_pie_menu_edit_icon_no">Nein (Auch durch zweimaliges Tippen von \',,\' in der Suche erreichbar)</string>
+	<string name="show_pie_menu_edit_icon_yes">Ja</string>
 </resources>
 
 

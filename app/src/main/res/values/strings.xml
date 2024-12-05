@@ -89,4 +89,7 @@
 	<string name="alphabet_filtering">Alphabet Filtering</string>
 	<string name="alphabet_filtering_yes">Yes (Only Latin Character Locales)</string>
 	<string name="alphabet_filtering_no">No</string>
+	<string name="show_pie_menu_edit_icon">Show pie menu edit icon</string>
+	<string name="show_pie_menu_edit_icon_no">No (Can also be accessed by typing \',,\' twice in search)</string>
+	<string name="show_pie_menu_edit_icon_yes">Yes</string>
 </resources>

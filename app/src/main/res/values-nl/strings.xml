@@ -89,4 +89,7 @@
 	<string name="alphabet_filtering">Alfabetische filtering</string>
 	<string name="alphabet_filtering_yes">Ja (Alleen voor talen met Latijnse tekens)</string>
 	<string name="alphabet_filtering_no">Nee</string>
+	<string name="show_pie_menu_edit_icon">Toon pie-menu bewerkingspictogram</string>
+	<string name="show_pie_menu_edit_icon_no">Nee (Ook toegankelijk door twee keer \',,\' te typen in de zoekbalk)</string>
+	<string name="show_pie_menu_edit_icon_yes">Ja</string>
 </resources>
